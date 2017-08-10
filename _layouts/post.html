@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+<article class="post post-page">
+    <header class="post-header">
+        {% if page.title %}
+            <h1 class="post-heading">{{ page.title }}</h1>
+        {% endif %}
+        {% if page.date %}
+            <p class="post-date">
+                {{ page.date | date: " %A" }}
+                {% assign d = page.date | date: "%-d" %}
+                {% case d %}{% when "1" or "21" or "31" %}{{ d }}<sup>st</sup>{% when "2" or "22" %}{{ d }}<sup>nd</sup>{% when "3" or "23" %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}
+                {{ page.date | date: "%B %Y" }}
+            </p>
+        {% endif %}
+    </header>
+    <div class="mark-down">
+        {{ content }}
+    </div>
+    <p class="actions clearfix">
+        {% if page.categories[0] == 'essays' %}
+        <a href="/" class="button">More articles</a>
+        {% else %}
+        <a href="/journal" class="button">More journal entries</a>
+        {% endif %}
+    </p>
+</article>
+
