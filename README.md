@@ -5,7 +5,7 @@ William Thomas website
 Requirements
 ------------
 
-In order to run and develop the blog, you'll need [Jekyll](http://jekyllrb.com/) gem installed and [Node](http://nodejs.org/) with [Gulp](http://gulpjs.com/) task manager for compiling/watching styles.
+In order to run and develop the blog, you'll need [Jekyll](http://jekyllrb.com/) gem installed.
 
 Installation
 ------------

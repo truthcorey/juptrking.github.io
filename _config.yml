@@ -1,5 +1,5 @@
 name: 
-markdown: redcarpet
+markdown: kramdown
 permalink: /:title
 sass:
     style: compressed
