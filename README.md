@@ -1,7 +1,6 @@
-CTS
+williamthomas.io
 ===================
-
-CTS website
+William Thomas website
 
 Requirements
 ------------
@@ -23,31 +22,7 @@ Note: if you get an error on `rvm use 2.1` then close your terminal window and o
 
     gem install jekyll
 
-### Install Node.js
-
-You will need to have [homebrew](http://brew.sh/) installed before running this command
-
-    brew install node
-
-### Install [Gulp](http://gulpjs.com/) as global task manager
-
-    npm install -g gulp
-
-### Install the project node depedencies
-
-cd to the root of the repository and run the following:
-
-    npm install
-
 Running Jekyll server
 ---------------------
 
     jekyll serve --watch
-
-Development
------------
-
-Once you have all the things configured, is pretty easy to develop the blog. In order to watch or compile your LESS files you have to run the next command into the repo
-
-    gulp watch #or just 'gulp styles' to compile them
-
