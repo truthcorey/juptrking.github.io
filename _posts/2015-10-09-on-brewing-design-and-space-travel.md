@@ -5,7 +5,7 @@ category: essays
 author: Will Thomas
 author_url: https://twitter.com/juptrking
 description:
-myMadeUpNonsense: "Oh hi 2!"
+myMadeUpNonsense: "Oh hi 3!"
 ---
 As a designer, I sometimes struggle to remember that the audience can’t always see what I see. When I solve a problem there are usually many constraints and frameworks that — unbeknownst to the audience — must be adhered too. I have to make products that not only solve a problem but make sense to me, and the audience.
 
