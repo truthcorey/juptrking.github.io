@@ -1,6 +1,6 @@
-williamthomas.io
+truthcorey.github.io
 ===================
-William Thomas website
+Ruth Corey website
 
 Requirements
 ------------
